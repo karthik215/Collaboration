@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top headroom">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				
+		</div>			
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+					<li><a href="#/viewblogs"><span class="fa fa-codepen"></span>Blogs</a></li>
+					<li><a href="#/viewforums"><span class="glyphicon glyphicon-comment"></span>View Forums</a></li>
+					<li><a href="#/login"><span class="glyphicon glyphicon-log-in"></span>SIGN IN</a></li>
+					<li><a href="#/userprofile">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="jumbotran">
+		<div class="container">
+			<div ng-view></div>
+	
+		</div>
+	</div>
+
+	<br/><br/>
+	
+	
+
+</body>
+</html>
